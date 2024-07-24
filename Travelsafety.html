@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./Styles/Travelsafety.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
 </head>
 <body>
     <div class="container">
@@ -178,6 +180,17 @@
         remcon.style.display="block";
         btn.style.display="none";
     })
+
+    ScrollReveal({
+        reset:true,
+        distance:"200px",
+        duration:1000,
+        delay:100
+
+    })
+    ScrollReveal().reveal(".con2-h1",{origin:"top"})
+    ScrollReveal().reveal(".con3-h1",{origin:"bottom"})
+    ScrollReveal().reveal(".con4-img1",{origin:"right"})
 </script>
 
 </body>

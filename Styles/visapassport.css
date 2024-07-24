@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+body{
+    background-color: rgb(244, 244, 244);
+}
+.container{
+    display:flex;
+    font-size: 12px;
+width: 100%;
+float: right;
+position: fixed;
+top:0;
+    height:10vh;
+    box-shadow: 0 0 10px grey;
+    gap:80px;
+  z-index: 2;
+}
+.con{
+    margin-top: -70px;
+}
+h1{
+    margin-top: 160px;
+    color:navy;
+    margin-left: 100px;
+}
+.container2{
+    display: flex;
+    gap:40px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.sp{
+ margin-left: 80px;
+}
+.sp:hover .drop-down{
+  display:block;
+  border-radius: 10px;
+ 
+}
+.drop-down{
+    background-color: rgb(136, 184, 226);
+    padding:10px;
+    float: right;
+    margin-top: 30px;
+   margin-left: -50px;
+   display: none;
+ 
+}
+.li2{
+    height:20px;
+    margin-top: 20px;
+}
+.on{
+    font-size: 22px;
+    color:blue;
+    transform: rotate(60deg);
+}
+.on1{
+    transform: rotate(300deg);
+    font-size: 22px;
+    color:blue;
+}
+.container3{
+    background-color: white;
+    height:30px;
+    width:60%;
+margin-left: 180px;
+padding:30px;
+box-shadow: 0  0 10px gray;
+margin-top: 30px;
+border-radius: 10px;
+}
+.sp1{
+   margin-right: 80px;
+}
+.input1{
+    border:0;
+}
+.con3-btn{
+    height:50px;
+    width:180px;
+    float: right;
+    border-radius: 10px;
+    margin-top: -10px;
+    border:0;
+    border:1px solid gray
+}
+h2{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.container4{
+    display: flex;
+    gap:20px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.con4-s1{
+    height:20vh;
+    padding: 20px;
+    border-radius: 10px;
+    width:20%;
+    box-shadow: 0 0 10px silver;
+}
+.on2{
+    font-size: 30px;
+    color:blue;
+    transform: rotate(300deg);
+    margin-bottom: 20px;
+}
+.on0{
+    font-size: 30px;
+    color:blue;
+    margin-bottom: 20px;
+}
+.container5{
+    text-align: center;
+
+}
+/*.container5{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.con5-s{
+    border:1px solid rgb(168, 164, 164);
+    width:100%;
+    display: flex;
+    gap:20px;
+    border-radius: 15px;
+    margin-right: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.con5-img1{
+    height:90px;
+    width:140px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}*/
