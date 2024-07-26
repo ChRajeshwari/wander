@@ -205,13 +205,11 @@
 
     <div class="container">
         <div class="con">
-            <h2>Get an eVisa</h2>
+            <h2><a href="../Styles/visapassport.html">Get an eVisa</a></h2>
         </div>
+       
         <div class="con">
-            <h2>Travel Requirements</h2>
-        </div>
-        <div class="con">
-            <h2>Visa map</h2>
+         <h2> <a href="../visamap.html"> Visa map</a></h2>
         </div>
     </div>
 
@@ -584,14 +582,11 @@
 <div class="container10">
 <h3 style="font-size: 30px;">eVisa</h2>
 <div class="con10-s1">
-  <p class="con10-p1"><ion-icon name="globe-outline"></ion-icon>
-    Travel Purpose: Tourism, Business<ion-icon name="alert-circle-outline"></ion-icon></p>
-  <p class="con10-p1"><ion-icon name="newspaper-outline"></ion-icon>Validity: 90 days<ion-icon name="alert-circle-outline" class="iconinfo"></ion-icon></p>
+  <p class="con10-p1"><ion-icon name="globe-outline"></ion-icon> 
+    Travel Purpose: Tourism, Business<ion-icon name="alert-circle-outline" class="icoinf"></ion-icon></p>
+  <p class="con10-p1"><ion-icon name="newspaper-outline"></ion-icon> Validity: 90 days <ion-icon name="alert-circle-outline" class="icoinf"></ion-icon></p>
 
-  <p class="iconhov">This refers to the period during which an eVisa is considered legally acceptable and can be 
-used for travel. The validity period is typically specified by the issuing authority and is present on the eVisa 
-document.
-</p>
+
   <p class="con10-p1" style="width:80%;">Apply for the Azerbaijani eVisa, and receive a travel document that allows you to enter Azerbaijan once, and explore the country for up to 30 days.
      An eVisa is a travel document, listing your travel and personal information that you must print and present at immigration.</p>
 <br><br>
@@ -603,10 +598,27 @@ document.
 
      <h3>FAQ</h3><hr style="margin-top:16px">
      <p class="con10-p1">How do i apply?</p><hr style="margin-top:16px">
-     <p class="con10-p1">When should i apply if my trip is in a few months?</p><hr style="margin-top:16px">
-     <p class="con10-p1">How can i check status of my application?</p><hr style="margin-top:16px">
+
+     <p class="con10-ph">When should i apply if my trip is in a few months?</p>
+
+     <p class="con10-ph1">Apply for your visa as soon as possible to allow time for any potential issues. Sherpa ensures your
+         application is submitted at the optimal time to maximize its validity based on your travel date. If your application 
+         can't be immediately accepted by the government,
+         we'll schedule it for the first available date to ensure you get your visa on time for your trip.</p>
+         <hr style="margin-top:20px">
+
+
+
+     <p class="con10-ph">How can i check status of my application?</p>
+     <p class="con10-ph1">I use my visa to re-enter the coun</p>
+     <hr style="margin-top:20px">
+    
      <p class="con10-p1">Can I use my visa to re-enter the country?</p><hr style="margin-top:16px">
-     <p class="con10-p1">Do I need a new eVisa, if I applied before?</p><hr style="margin-top:16px">
+
+     <p class="con10-ph">Do I need a new eVisa, if I applied before?</p>
+     <p class="con10-ph1">This is a single entry visa. If you already used this visa for entry into the country, then you will need to apply for a new visa to re-enter.</p><hr style="margin-top:16px">
+     <hr style="margin-top:20px">
+
      <p class="con10-p1">Can I apply without having a return flight?</p><hr style="margin-top:16px">
      <p class="con10-p1">Do I need to apply for my kids?</p><hr style="margin-top:16px">
 
@@ -630,47 +642,74 @@ document.
 
 
 </div>
+<div>
+<p class="down">This refers to the period during which an eVisa is considered legally acceptable and can be 
+    used for travel. The validity period is typically specified by the issuing authority and is present on the eVisa 
+    document.
+    </p>
+    
+    </div>
+
+
 
     <script>
-
-
-let cart1=document.querySelectorAll(".cart1");
-       let pop=document.querySelectorAll("#visa");
-       let con6a=document.querySelectorAll("#con6a");
-
-
-        let btn=document.querySelector(".morebtn");
-        let remcon=document.querySelector(".remcon");
-    
-        btn.addEventListener("click",function(){
-            remcon.style.display="block";
-            btn.style.display="none";
-        });
-
-        con6a.addEventListener("click",function(){
-            pop.style.display="block";
-        });
-
-        cart1.addEventListener("click",function(){
-        pop.style.display="none";
-       });
-    
-        ScrollReveal({
+            
+ScrollReveal({
             reset:true,
             distance:"400px",
             duration:1000,
             delay:100
     
-        })
+        });
         ScrollReveal().reveal(".logo",{origin:"left"})
         ScrollReveal().reveal(".con3-h1",{origin:"bottom"})
         ScrollReveal().reveal("nav",{origin:"top"})
-        ScrollReveal().reveal(".con4-s1",{delay:100,origin:"bottom",interval:200})
+        ScrollReveal().reveal(".con4-s1",{delay:100,origin:"bottom",interval:200});
 
 
+
+     
+      
+     
+      
+        let btn=document.querySelector(".morebtn");
+        btn.addEventListener("click",function(){
+           
+            let remcon=document.querySelector(".remcon");
+            remcon.style.display="block";
+            btn.style.display="none";
+        });
+
+
+        let cart1=document.querySelector(".cart1");
+        cart1.addEventListener("click",function(){
+            let pop=document.querySelectorAll("#visa");
+            pop.style.display="none";
+       });
+
+
+       let con6a=document.querySelectorAll("#con6a");
+       con6a.addEventListener("click",function(){
+      
+            pop.style.display="block";
+        });
+
+        let icoinf=document.querySelector(".icoinf");
+        icoinf.addEventListener("onmousemove",function(){
+            let down=document.querySelector(".down");
+           
+        down.style.display="block";
+       });
+      
+
+       let ph=document.querySelectorAll(".con10-ph");
+       ph.addEventListener("click",function(){
     
-
-
+       let ph1=document.querySelectorAll(".con10-ph1");
+      
+        ph1.style.display="block";
+        ph1.style.marginTop="20px";
+        });
        
     </script>
 

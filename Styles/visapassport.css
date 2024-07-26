@@ -516,12 +516,16 @@ padding-right:120px;
     font-size: 26px;
     padding-top: 10px;
 }
-.iconhov{
+.down{
 
 display: none;
 }
-.iconinfo:hover .iconhov{
-display: block;
- width:40%;
- transition: 1s;
+
+
+.con10-ph{
+    cursor: pointer;
+}
+.con10-ph1{
+    display: none;
+    cursor: pointer;
 }

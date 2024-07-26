@@ -1,0 +1,164 @@
+.container{
+    display:flex;
+   
+    font-size: 10px;
+    padding-top: 40px;
+   background-repeat:no-repeat;
+  
+}
+.main{
+    background-image: url("../Images/guideimg2.jpg");
+    background-size: cover;
+    height:80vh;
+
+}
+.con-s1{
+    margin-left: 50px;
+}
+
+a{
+    color:navy;
+    text-decoration: none;
+}
+.con1-h2{
+    margin-left: 300px;
+    margin-top: 160px;
+    font-size: 40px;
+   font-weight: bold;
+}
+.p0{
+    color:transparent;
+    background-color: transparent;
+    -webkit-text-stroke: 2px blue ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5PX;
+    line-height: 2;
+    font-size: 60px;
+}
+.con1-btn{
+    background-color: rgb(6, 202, 6);
+    color: white;
+    height:60px;
+    width:20%;
+    font-size: 20px;
+    border: 0;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+.con1-p1{
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 300px;
+}
+.con0-h1{
+    font-size: 40px;
+   margin-top: 80px;
+   text-align: center;
+}
+.icon{
+    font-size: 90px;
+    color:rgb(6, 121, 6);
+   
+}
+.container7{
+    display:flex;
+
+   margin-left: 180px;
+    margin-top: 100px;
+    width:90%;
+    position: relative;
+    right:30px;
+    
+}
+.con7-h1{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.con7-img1{
+    height:80px;
+    margin-left: 80px;
+}
+.con7-p1{
+    font-size: 20px;
+    line-height: 1.6;
+    width:80%;
+   
+   text-align: center;
+}
+.btn{
+    background-color: rgb(6, 202, 6);
+    color: white;
+    height:60px;
+    width:10%;
+    font-size: 20px;
+    border: 0;
+    margin-top: 100px;
+    margin-left: 600px;
+    border-radius: 10px;
+}
+.container3{
+    background-color: rgb(247, 245, 242);
+}
+.con3-h1{
+   margin-left: 600px;
+    margin-top: 60px;
+    padding-top: 80px;
+}
+.container4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.con4-img1{
+    margin-left: 100px;
+    height:340px;
+    border-radius: 10px;
+}
+.con4-p1{
+    font-size: 20px;
+    margin-right: 100px;
+}
+input{
+    width:20%;
+    height:50px;
+    margin-top: 20px;
+}
+
+.btn1{
+    background-color: rgb(3, 159, 3);
+    border: 0;
+    height:60px;
+    color:white;
+    font-size: 18px;
+    width:200px;
+    border-radius: 10px;
+    position: relative;
+  top:100px;
+  right:200px;
+}
+.contact{
+    background-color: aliceblue;
+    height:500px;
+    margin-top: 140px;
+    text-align: center;
+    padding-top: 50px;
+}
+.cont{
+    font-size: 50px;
+}
+.span1{
+    font-size: 20px;
+    margin-right: 40px;
+}
+.span2{
+    font-size: 20px;
+    margin-right: 80px;
+}
+.span3{
+    font-size: 20px;
+    margin-left:200px;
+}
+.input1{
+    margin-left:50px;
+}
