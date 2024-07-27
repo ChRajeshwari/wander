@@ -1,0 +1,48 @@
+body{
+    font-family: "Lonto","sans-serif";
+}
+.container{
+    background-color: aliceblue;
+    border: 0.2px solid silver;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.con-h1{
+    text-align: center;
+    font-size: 60px;
+    height:60vh;
+ 
+    margin-left: 100px;
+  width:80%;
+    padding-top: 200px;
+}
+.con-img1{
+    width:80%;
+    margin-left: 80px;
+    height:80vh;
+    margin-top: 40px;
+}
+.con-p1{
+    font-size: 16px;text-align: center;
+}
+.con-p2{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.con-h2{
+    font-size: 40px;
+    margin-left: 60px;
+}
+.costlist{
+    margin-left: 60px;
+    font-size: 20px;
+    line-height: 2;
+}
+.con-h3{
+    font-size: 36px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
