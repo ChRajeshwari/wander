@@ -230,7 +230,9 @@ nav>ul>li:hover .mega-menu2{
 .container1{
     display: flex;
     margin-left: 80px;
+    flex-wrap: wrap;
     margin-top: 80px;
+    
 }
 .con1-h1{
     font-size: 40px;
@@ -239,7 +241,9 @@ nav>ul>li:hover .mega-menu2{
     margin-top: 80px;
 }
 .con1-img1{
-    width:80%;
+    width:90%;
     height:30vh;
     border-radius: 10px;
+    object-fit: cover;
+    margin-top: 80px;
 }

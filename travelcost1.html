@@ -8,8 +8,17 @@
 </head>
 <body>
     <div class="container">
-       <h1 class="con-h1">This is how you visit Countries on a budget, 10 top tips to save your cents</h1>
-       <img class="con-img1" src="Images/budtravelimg1.jpeg">
+        <div class="con">
+            <div class="con-s1">
+    <h1 class="con-h1">POPULAR PLACES IN INDIA </h1>
+    <p class="p1">VIST INDIA ON BUDGET</p>
+
+       </div>
+       <div class="con-s2">
+        <img class="con-img2" id="img1" src="Images/budtravelimg1.jpeg">
+       </div>
+       </div>
+     <video controls autoplay src="Images/indiavideo.mp4" style="width:80%;margin-left: 100px;margin-bottom: 50px;"></video>
        <p class="con-p1">From budget skiing to cheap (and free!) places to stay, make your money go farther in Montana with these tips © Jordan Siemens / Getty Images</p>
     <p class="con-p2">The wide open space that Montana is famed for is also the reason the cost of a trip can quickly add up – getting around this beautiful state to see and experience everything can burn up your bank account.
 <br><br>
@@ -59,5 +68,16 @@
 
 
 </div>
+<a href="indiabudget.html"> <button class="btn">See more</button></a>
+
+
+<script>
+    let img=document.getElementById("img1");
+    let images=["Images/india1.webp","Images/india2.jpg","Images/india3.jpg","Images/india4.jpg","Images/india5.jpg","Images/india6.jpeg"]
+    setInterval(function(){
+        let imgchange=Math.floor(Math.random()*images.length);
+        img.src=images[imgchange];
+    },900);
+</script>
 </body>
 </html>
